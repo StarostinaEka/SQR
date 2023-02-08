@@ -1,6 +1,6 @@
 package ru.netology.SQR;
 
-public class SQRService {
+public class sqrservice {
     public int countSquares(int minimum, int maximum) {
         int count = 0;
         for (int i = 10; i <= 99; i++) {
@@ -11,7 +11,7 @@ public class SQRService {
             }
 
         }
+        System.out.println(count);
         return count;
     }
 }
-
